@@ -1,15 +1,19 @@
-# Messaging System Setup and Deployment Guide
+# Messaging System With Rabbitmq and Celery - Setup and Deployment Guide (For ubuntu machines)
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+
 ## Local Setup
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/messaging_system.git
-cd messaging_system
+git clone https://github.com/Data-Bishop/Messaging-System-With-RABBITMQ-and-CELERY.git
+cd Messaging-System-With-RABBITMQ-and-CELERY
 ```
 
 2. Create and activate a virtual environment:
 
-```
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
@@ -40,6 +44,7 @@ celery -A celery_worker.celery worker --loglevel=info
 ```
 
 8. Set up ngrok:
+Ensure that you have completed the initial ngrok setup.
    
 ```
 ngrok http 5000
