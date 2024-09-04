@@ -1,4 +1,4 @@
-# Messaging System With Rabbitmq and Celery - Setup and Deployment Guide (For ubuntu machines)
+# Messaging System With Rabbitmq and Celery - Setup and Deployment Guide (For ubuntu/linux machines)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
